@@ -1,3 +1,5 @@
+import java.util.*;
+
 public List<String> findWords(char[][] board, String[] words) {
     List<String> res = new ArrayList<>();
     TrieNode root = buildTrie(words);
@@ -43,4 +45,4 @@ public TrieNode buildTrie(String[] words) {
 class TrieNode {
     TrieNode[] next = new TrieNode[26];
     String word;
-}
+}}
