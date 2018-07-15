@@ -1,2 +1,2 @@
 # LeetCode-Exercise
-sharp my mind :)
+<strong>sharpen my mind :)</strong>
